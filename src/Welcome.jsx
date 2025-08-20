@@ -26,11 +26,14 @@ function Welcome() {
     }, []);
 
     return (
-        <div className="flex flex-col justify-center items-center text-white pt-2">
-            <h2 className="text-4xl">Hello I'm</h2>
-            <h1 className="text-5xl font-bold">Blake Rears</h1>
-            <h3 className="text-2xl font-mono text-cyan-200 pt-1">{displayedText}</h3>
-        </div>
+        <>
+            <div className="flex flex-col justify-center items-center text-white pt-2">
+                <h2 className="text-4xl">Hello I'm</h2>
+                <h1 className="text-5xl font-bold">Blake Rears</h1>
+                <h3 className="text-2xl font-mono text-cyan-200 pt-1">{displayedText}</h3>
+            </div>
+            <hr className="w-full h-px my-2 bg-gradient-to-r from-transparent via-gray-500 to-transparent border-none"></hr>
+        </>
     );
 }
 
