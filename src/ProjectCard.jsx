@@ -2,7 +2,7 @@
 function ProjectCard({ pName, description, skills, isPlayable, link, onPlay, onShow}) {
 
     return (
-        <div className="bg-gray-800 rounded-2xl p-6 shadow-lg hover:scale-102 transition-transform duration-300 mx-10 my-5">
+        <div className="bg-gray-800 rounded-2xl p-6 shadow-lg hover:scale-102 transition-transform duration-300 mx-5 my-5">
             <h2 className="text-xl font-bold text-cyan-300 mb-2">{pName}</h2>
             <h3 className="font-semibold text-white mt-2">Description</h3>
             <p className="text-gray-300">{description}</p>
