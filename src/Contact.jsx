@@ -1,7 +1,7 @@
 
 function Contact() {
     return (
-        <div className='border-2 mb-10 rounded-2xl border-cyan-400 py-8 px-6 bg-gray-900 text-white max-w-3xl mx-auto shadow-md'>
+        <div className='border-2 mb-10 mx-10 rounded-2xl border-cyan-400 py-8 px-6 bg-gray-900 text-white shadow-md'>
             <h2
                 id='contact'
                 className="text-2xl font-extrabold text-white text-center my-10"
