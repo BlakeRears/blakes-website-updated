@@ -16,7 +16,7 @@ function Nav({ menuOpen, setMenuOpen }) {
                     Resume | CV
                 </a>
                 <button onClick={() => setMenuOpen(!menuOpen)}>
-                    <img src={HamBurgerIcon} alt='menu' className='size-10 text-white hover:scale-102' />
+                    <img src={HamBurgerIcon} alt='menu' className='size-10 text-white hover:scale-102 hover:cursor-pointer' />
                 </button>
             </div>
 
