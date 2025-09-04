@@ -10,8 +10,8 @@ function AboutMe() {
 
     return (
         <>
-            <div data-aos='ade-up' className='px-6 bg-gray-900 text-white max-w-3xl mx-auto mb-20'>
-                <p className='text-lg leading-relaxed'>
+            <div data-aos='ade-up' className='px-6 bg-gray-900 text-white max-w-3xl mx-auto mb-20 xl:max-w-4xl'>
+                <p className='text-lg leading-relaxed xl:text-[25px]'>
                     I began programming in <span className="font-bold text-cyan-400">Java</span> during my sophomore year of high school, and since then, I’ve
                     developed several projects that I’m proud of. One of my early accomplishments was designing a
                     2D platformer and boss rush game using <span className="font-bold text-cyan-400">Unity</span> and <span className="font-bold text-cyan-400">C#</span>. Players had to navigate challenging

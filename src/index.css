@@ -10,13 +10,30 @@ body {
 }
 
 @keyframes fade-in {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-
 .animate-fade-in {
-  animation: fade-in 0.8s forwards;
+  animation: fade-in 1s forwards;
+}
+
+@keyframes slide-in-left {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-slide-left {
+  animation: slide-in-left 1s ease-out;
+}
+
+@keyframes decoder {
+  0% { clip-path: inset(0% 0% 100% 0%); }  /* hide bottom */
+  50% { clip-path: inset(0% 0% 50% 0%); }  /* reveal halfway */
+  100% { clip-path: inset(0% 0% 0% 0%); }  /* fully revealed */
+}
+
+.animate-decoder {
+  animation: decoder 2s forwards;
 }

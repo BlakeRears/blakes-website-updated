@@ -1,16 +1,16 @@
 
 function Contact() {
     return (
-        <div className='border-2 mb-10 mx-10 rounded-2xl border-cyan-400 py-8 px-6 bg-gray-900 text-white shadow-md'>
+        <div className='border-2 mb-10 mx-10 md:mx-30 xl:mx-60 rounded-2xl border-cyan-400 py-8 px-6 bg-gray-900 text-white shadow-md'>
             <h2
                 id='contact'
-                className="text-2xl font-extrabold text-white text-center my-10"
+                className="text-2xl font-extrabold text-white text-center my-10 xl:text-5xl"
             >
                 Contact
             </h2>
 
             <p
-                className='text-center text-lg leading-relaxed'>I’m always open to connecting with fellow developers, recruiters, or anyone interested in my work. Reach out via email or LinkedIn!
+                className='text-center text-lg leading-relaxed xl:text-[25px]'>I’m always open to connecting with fellow developers, recruiters, or anyone interested in my work. Reach out via email or LinkedIn!
             </p>
             <div className=" py-10 flex flex-col sm:flex-row gap-4 justify-center">
                 <a

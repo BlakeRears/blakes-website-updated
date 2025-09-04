@@ -62,8 +62,8 @@ function App() {
       </div>
 
       <Welcome />
-      <h2 id='topSkills' className="flex justify-center items-center text-2xl my-10 mt-10 font-extrabold text-white ">Top Skills</h2>
-      <div className='mx-10 grid grid-cols-2 sm:grid-cols-2 md:mx-30 lg:grid-cols-4 gap-4 lg:px-0 lg:mx-50 xl:mx-90'>
+      <h2 id='topSkills' className="flex justify-center items-center text-2xl my-10 mt-10 font-extrabold text-white xl:text-5xl">Top Skills</h2>
+      <div className='mx-10 grid grid-cols-2 sm:grid-cols-2 md:mx-30 lg:grid-cols-4 gap-4 lg:px-0 lg:mx-50 xl:mx-60'>
         <Skills skill={'React'} />
         <Skills skill={'JavaScript'} />
         <Skills skill={'Tailwind'} />
@@ -76,7 +76,7 @@ function App() {
       </div>
 
 
-      <h2 id='projects' className="text-2xl font-extrabold text-white text-center my-10">Projects</h2>
+      <h2 id='projects' className="text-2xl font-extrabold text-white text-center my-10 xl:text-5xl xl:mt-50">Projects</h2>
       <div className='sm:mx-10 md:grid md:grid-cols-2 md:mx-20'>
         <ProjectCard
           pName={'Chess App'}
@@ -139,7 +139,7 @@ function App() {
 
       <h2 
         id='aboutme'
-        className="text-2xl font-extrabold text-white text-center my-10"
+        className="text-2xl font-extrabold text-white text-center my-10 xl:text-5xl xl:mt-50"
       >
         About Me
       </h2>
