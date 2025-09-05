@@ -12,7 +12,7 @@ function Contact() {
             <p
                 className='text-center text-lg leading-relaxed xl:text-[25px]'>I’m always open to connecting with fellow developers, recruiters, or anyone interested in my work. Reach out via email or LinkedIn!
             </p>
-            <div className=" py-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="py-10 flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                     href="mailto:RearsBlake@gmail.com"
                     className="px-6 py-3 bg-cyan-500 text-white rounded-xl text-center hover:bg-cyan-600 transition"
