@@ -46,7 +46,7 @@ function Welcome() {
                 <div className="relative overflow-hidden rounded-full w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]">
                     <video
                         autoPlay
-                        muted
+                        muted={true}
                         playsInline
                         className="w-full h-full object-cover"
                     >
