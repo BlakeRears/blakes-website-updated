@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import React, { useState } from 'react';
 import pfp from '/public/HeadshotPFPCircle.png';
 import pfpanimation from './assets/output.webm';
+import pfpphone from './assets/headshot.mp4';
 
 function Welcome() {
 
@@ -49,8 +50,8 @@ function Welcome() {
                         playsInline
                         className="w-full h-full object-cover"
                     >
+                        <source src={pfpphone} type="video/mp4" />
                         <source src={pfpanimation} type="video/webm" />
-                        {/* <source src={pfpanimationiphone} type="video/mov" /> */}
                         Your browser does not support the video tag.
                     </video>
                 </div>
